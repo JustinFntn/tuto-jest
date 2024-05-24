@@ -1,0 +1,22 @@
+{
+  "name": "tuto-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node ./src/index.js",
+    "db:init": "node db/init.db.js",
+    "test": "jest",
+    "postinstall": "npm run db:init"
+  },
+  "author": "Valentin FOURNY",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
+  }
+}
