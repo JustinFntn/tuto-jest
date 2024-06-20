@@ -6,10 +6,10 @@
   "scripts": {
     "dev": "node ./src/index.js",
     "db:init": "node db/init.db.js",
-    "test": "jest",
+    "test": "jest --coverage",
     "postinstall": "npm run db:init"
   },
-  "author": "Valentin FOURNY",
+  "author": "Justin Fontaine",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.1",
